@@ -1,2 +1,1 @@
-# client
-Unzipped client files
+carpeta Open Gunz va en mis documentos
