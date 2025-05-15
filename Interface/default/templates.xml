@@ -1578,7 +1578,7 @@
 
 	<FRAMELOOKTEMPLATE item="Custom1FrameLook">
 <!--		<DEFAULT>true</DEFAULT>		-->
-		<STRETCH>false</STRETCH>
+		<STRETCH>true</STRETCH>
 		<FONT>FONTb11b</FONT>
 		<TEXTCOLOR>
 			<R>255</R>

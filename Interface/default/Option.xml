@@ -1255,7 +1255,7 @@
 		</BOUNDS>
 		<TEXT>STR:UI_OPTION_31</TEXT> <!-- 이전무기 -->
 	</LABEL>
-	<ACTIONKEY item="PreviousWeaponActionKey" parent="KeyboardOptionGroup2">
+	<ACTIONKEY item="PrevousWeaponActionKey" parent="KeyboardOptionGroup2">
 		<BOUNDS>
 			<X>120</X>
 			<Y>90</Y>

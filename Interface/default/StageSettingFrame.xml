@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8" ?>
 <XML ID="StageList">
 	<Schema xmlns="MaietData" xmlns:dt="MaietDataTypes" />
 
@@ -414,7 +414,6 @@
 			<W>24</W>
 			<H>24</H>
 		</BOUNDS>
-		<ENABLE>true</ENABLE>
 	</BUTTON>
 	
 	<!-- LABEL : 투표 가능 -->
@@ -443,7 +442,6 @@
 			<W>24</W>
 			<H>24</H>
 		</BOUNDS>
-		<ENABLE>true</ENABLE>
 	</BUTTON>
 	
 	<LABEL item="Label" parent="StageSettingFrame">

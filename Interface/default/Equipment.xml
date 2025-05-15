@@ -741,7 +741,7 @@
 		<BOUNDS>
 			<X>392</X>
 			<Y>32</Y>
-			<W>93</W>
+			<W>89</W>
 			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
@@ -765,7 +765,7 @@
 		<ENABLE>false</ENABLE>
 	</BMBUTTON> -->
 	
-	<!-- BMBUTTON : 옵션버튼 
+	<!-- BMBUTTON : 옵션버튼 -->
 	<BMBUTTON item="Equip_OptionFrame" parent="Equipment">
 		<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
 		<BOUNDS>
@@ -780,7 +780,7 @@
 		<BITMAP type="down">option_on_kr.tga</BITMAP>
 		<TEXT></TEXT>
 		<ENABLE>false</ENABLE>
-	</BMBUTTON> -->
+	</BMBUTTON>
 
 
 <!-- 하단 버튼 배열 -->

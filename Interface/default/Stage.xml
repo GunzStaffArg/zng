@@ -176,10 +176,10 @@
 	<!-- Picture : 반투명 검정 배경 -->
 	<PICTURE item="Stage_PlayerSpecBG" parent="Stage_CharacterInfo">
 		<BOUNDS>
-			<X>48</X>
+			<X>22</X>
 			<Y>360</Y>
 			<W>130</W>
-			<H>167</H>
+			<H>170</H>
 		</BOUNDS>
 		<STRETCH/>
 		<BITMAP>black_bg.tga</BITMAP>
@@ -200,7 +200,7 @@
 			<BOTTOM>false</BOTTOM>
 		</ANCHORS>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>370</Y>
 			<W>123</W>
 			<H>20</H>
@@ -218,7 +218,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>395</Y>
 			<W>123</W>
 			<H>20</H>
@@ -235,7 +235,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>410</Y>
 			<W>123</W>
 			<H>20</H>
@@ -252,7 +252,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>425</Y>
 			<W>123</W>
 			<H>20</H>
@@ -269,7 +269,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>440</Y>
 			<W>123</W>
 			<H>20</H>
@@ -286,7 +286,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>463</Y>
 			<W>123</W>
 			<H>20</H>
@@ -303,7 +303,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>478</Y>
 			<W>123</W>
 			<H>20</H>
@@ -320,7 +320,7 @@
 			<B>205</B>
 		</TEXTCOLOR>
 		<BOUNDS>
-			<X>51</X>
+			<X>25</X>
 			<Y>493</Y>
 			<W>123</W>
 			<H>20</H>
@@ -381,7 +381,7 @@
 	<PLAYERLISTBOX item="StagePlayerList_" parent = "Stage" >
 		<BOUNDS>
 			<X>550</X>
-			<Y>293</Y>
+			<Y>289</Y>
 			<W>233</W>
 			<H>240</H>
 		</BOUNDS>
@@ -639,10 +639,10 @@
 	<!-- BMBUTTON : 게임 시작 버튼 -->
 	<BMBUTTON item="GameStart" parent="StageGameInfo">
 		<BOUNDS>
-			<X>347</X>
-			<Y>106</Y>
-			<W>208</W>
-			<H>36</H>
+			<X>350</X>
+			<Y>108</Y>
+			<W>210</W>
+			<H>38</H>
 		</BOUNDS>
 		<BITMAP type="up">start_game_off.tga</BITMAP>
 		<BITMAP type="over">start_game_on.tga</BITMAP>
@@ -654,10 +654,10 @@
 	<!-- BMBUTTON : 준비 완료 버튼 -->
 	<BMBUTTON item="StageReady" parent="StageGameInfo">
 		<BOUNDS>
-			<X>347</X>
-			<Y>106</Y>
-			<W>208</W>
-			<H>36</H>
+			<X>350</X>
+			<Y>108</Y>
+			<W>210</W>
+			<H>38</H>
 		</BOUNDS>
 		<BITMAP type="up">ready_game_off.tga</BITMAP>
 		<BITMAP type="over">ready_game_on.tga</BITMAP>
@@ -670,10 +670,10 @@
 	<!-- BMBUTTON : 난입 버튼 -->
 	<BMBUTTON item="ForcedEntryToGame" parent="StageGameInfo">
 		<BOUNDS>
-			<X>347</X>
-			<Y>106</Y>
-			<W>208</W>
-			<H>36</H>
+			<X>350</X>
+			<Y>108</Y>
+			<W>210</W>
+			<H>38</H>
 		</BOUNDS>
 		<BITMAP type="up">forced_entry_off.tga</BITMAP>
 		<BITMAP type="over">forced_entry_on.tga</BITMAP>
@@ -1023,7 +1023,7 @@
 		<BOUNDS>
 			<X>392</X>
 			<Y>32</Y>
-			<W>100</W>
+			<W>89</W>
 			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
@@ -1070,19 +1070,6 @@
 		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
 	</BMBUTTON>
 
-	<!-- BUTTON : 나가기 버튼 -->
-	<BUTTON item ="Lobby_StageExit" parent="Stage">
-		<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
-		<BOUNDS>
-			<X>0</X>
-			<Y>0</Y>
-			<W>0</W>
-			<H>0</H>
-		</BOUNDS>
-		<DEFAULTKEY>ESC</DEFAULTKEY>
-		<CONFIRMMESSAGE>STR:UI_STAGE_19</CONFIRMMESSAGE> <!-- 게임에서 나가시겠습니까? -->
-		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
-	</BUTTON>
 	
 	
 <!-- FRAME : 희생 아이템 설명 프레임 -->

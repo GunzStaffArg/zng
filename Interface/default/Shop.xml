@@ -155,7 +155,7 @@
 		<BITMAP>framepanel.tga</BITMAP>
 	</PICTURE>
 
-	<!-- Picture : 탭 라밸 이미지 출력 
+	<!-- Picture : 탭 라밸 이미지 출력 -->
 	<PICTURE item ="Shop_TabLabelBg" parent="Shop">
 		<BOUNDS>
 			<X>678</X>
@@ -165,7 +165,7 @@
 		</BOUNDS>
 		<STRETCH/>
 		<BITMAP>framepaneltab0.tga</BITMAP>
-	</PICTURE> -->
+	</PICTURE>
 	
 	<!-- Picture : 탭 라밸 이미지 출력 -->
 	<PICTURE item ="Shop_TabLabel" parent="Shop">
@@ -207,7 +207,7 @@
 		<BITMAP type="down">shop_sell_on.tga</BITMAP>
 	</BMBUTTON>
 
- 	<!-- BMBUTTON : 캐쉬 장비 구입 버튼 
+ 	<!-- BMBUTTON : 캐쉬 장비 구입 버튼 -->
 	<BMBUTTON item="CashEquipmentListCaller" parent="Shop">
 		<BOUNDS>
 			<X>684</X>
@@ -219,7 +219,7 @@
 		<BITMAP type="up">shop_buycash_off.tga</BITMAP>
 		<BITMAP type="over">shop_buycash_on.tga</BITMAP>
 		<BITMAP type="down">shop_buycash_on.tga</BITMAP>
-	</BMBUTTON> -->
+	</BMBUTTON>
 
 	
 <!-- 장비 목록 -->
@@ -277,7 +277,7 @@
 	</PICTURE>
 	
 	
-	<!-- EQUIPMENTLISTBOX : 캐쉬샵 아이템 
+	<!-- EQUIPMENTLISTBOX : 캐쉬샵 아이템 -->
 	<EQUIPMENTLISTBOX item="CashEquipmentList" parent="Shop">
 		<LISTBOXLOOK>EquipListBoxLook</LISTBOXLOOK>
 		<ARROWLOOK>CustomtArrowLook</ARROWLOOK>
@@ -289,9 +289,9 @@
 			<H>262</H>
 		</BOUNDS>
 		<VISIBLE>false</VISIBLE>
-	</EQUIPMENTLISTBOX> -->
+	</EQUIPMENTLISTBOX>
 	
-	<!-- Picture : 프레임 탭 라벨3 출력 
+	<!-- Picture : 프레임 탭 라벨3 출력 -->
 	<PICTURE item ="Shop_FrameTabLabel3" parent="Shop">
 		<BOUNDS>
 			<X>684</X>
@@ -301,7 +301,7 @@
 		</BOUNDS>
 		<STRETCH/>
 		<BITMAP>shop_buycash_on.tga</BITMAP>
-	</PICTURE> -->
+	</PICTURE>
 
 	<!-- Picture : 리스트 라벨 출력 -->
 	<PICTURE item ="Shop_ListLabel" parent="Shop">
@@ -809,7 +809,7 @@
 		<BOUNDS>
 			<X>392</X>
 			<Y>32</Y>
-			<W>93</W>
+			<W>89</W>
 			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
@@ -819,7 +819,7 @@
 		<TEXT></TEXT>
 	</BMBUTTON>
 	
-	<!-- BMBUTTON : 옵션버튼 
+	<!-- BMBUTTON : 옵션버튼 -->
 	<BMBUTTON item="Shop_OptionFrame" parent="Shop">
 		<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
 		<BOUNDS>
@@ -834,7 +834,7 @@
 		<BITMAP type="down">option_on_kr.tga</BITMAP>
 		<TEXT></TEXT>
 		<ENABLE>false</ENABLE>
-	</BMBUTTON> -->
+	</BMBUTTON>
 
 
 <!-- 하단 버튼 배열 -->

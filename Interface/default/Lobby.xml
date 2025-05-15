@@ -302,7 +302,7 @@
 	<BMBUTTON item ="Lobby_RoomNo1" parent="Lobby">
 		<BOUNDS>
 			<X>9</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -319,7 +319,7 @@
 	<BMBUTTON item ="Lobby_RoomNo2" parent="Lobby">
 		<BOUNDS>
 			<X>28</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -335,7 +335,7 @@
 	<BMBUTTON item ="Lobby_RoomNo3" parent="Lobby">
 		<BOUNDS>
 			<X>47</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -351,7 +351,7 @@
 	<BMBUTTON item ="Lobby_RoomNo4" parent="Lobby">
 		<BOUNDS>
 			<X>66</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -367,7 +367,7 @@
 	<BMBUTTON item ="Lobby_RoomNo5" parent="Lobby">
 		<BOUNDS>
 			<X>85</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -383,7 +383,7 @@
 	<BMBUTTON item ="Lobby_RoomNo6" parent="Lobby">
 		<BOUNDS>
 			<X>104</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -399,7 +399,7 @@
 	<BMBUTTON item ="StageBeforeBtn" parent="Lobby">
 		<BOUNDS>
 			<X>125</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -413,7 +413,7 @@
 	<BMBUTTON item ="StageAfterBtn" parent="Lobby">
 		<BOUNDS>
 			<X>146</X>
-			<Y>324</Y>
+			<Y>317</Y>
 			<W>16</W>
 			<H>16</H>
 		</BOUNDS>
@@ -441,7 +441,6 @@
 		<BITMAP type="back">banner_Battle Arena.tga</BITMAP>
 		<BITMAP type="back">banner_Town.tga</BITMAP>
 		<BITMAP type="back">banner_Dungeon.tga</BITMAP>
-		<BITMAP type="back">banner_Dungeon II.tga</BITMAP>
 		<BITMAP type="back">banner_Ruin.tga</BITMAP>
 		<BITMAP type="back">banner_island.tga</BITMAP>
 		<BITMAP type="back">banner_garden.tga</BITMAP>
@@ -452,10 +451,6 @@
 		<BITMAP type="back">banner_Stairway.tga</BITMAP>
 		<BITMAP type="back">banner_snow_town.tga</BITMAP>
 		<BITMAP type="back">banner_Lost Shrine.tga</BITMAP>
-		<BITMAP type="back">banner_Lodge.tga</BITMAP>
-		<BITMAP type="back">banner_Dojo.tga</BITMAP>
-		<BITMAP type="back">banner_Hall.tga</BITMAP>
-		<BITMAP type="back">banner_Catacomb.tga</BITMAP>
 		<BITMAP type="icon" mode="0">death-mode.tga</BITMAP>
 		<BITMAP type="icon" mode="2">Gladiator-mode.tga</BITMAP>
 		<BITMAP type="icon" mode="1">teamdeath-mode.tga</BITMAP>
@@ -482,7 +477,7 @@
 	<BMBUTTON item="StageJoin" parent="Lobby">
 		<BOUNDS>
 			<X>218</X>
-			<Y>312</Y>
+			<Y>313</Y>
 			<W>125</W>
 			<H>42</H>
 		</BOUNDS>
@@ -496,7 +491,7 @@
 	<BMBUTTON item="StageCreateFrameCaller" parent="Lobby">
 		<BOUNDS>
 			<X>360</X>
-			<Y>312</Y>
+			<Y>313</Y>
 			<W>125</W>
 			<H>42</H>
 		</BOUNDS>
@@ -510,7 +505,7 @@
 	<BMBUTTON item="QuickJoin" parent="Lobby">
 		<BOUNDS>
 			<X>500</X>
-			<Y>312</Y>
+			<Y>313</Y>
 			<W>173</W>
 			<H>42</H>
 		</BOUNDS>
@@ -877,7 +872,7 @@
 		<BOUNDS>
 			<X>289</X>
 			<Y>32</Y>
-			<W>93</W>
+			<W>120</W>
 			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
@@ -893,7 +888,7 @@
 		<BOUNDS>
 			<X>392</X>
 			<Y>32</Y>
-			<W>100</W>
+			<W>120</W>
 			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
@@ -924,7 +919,7 @@
 		<BOUNDS>
 			<X>689</X>
 			<Y>32</Y>
-			<W>91</W>
+			<W>120</W>
 			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
@@ -942,8 +937,8 @@
 		<BOUNDS>
 			<X>10</X>
 			<Y>563</Y>
-			<W>110</W>
-			<H>36</H>
+			<W>120</W>
+			<H>38</H>
 		</BOUNDS>
 		<STRETCH/>
 		<BITMAP type="up">replay_off_kr.tga</BITMAP>
@@ -999,20 +994,6 @@
 		<CONFIRMMESSAGE>STR:UI_LOBBY_A02</CONFIRMMESSAGE> <!-- GUNZ를 종료하시겠습니까? -->
 		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
 	</BMBUTTON>
-
-	<!-- BUTTON : 나가기 버튼 -->
-	<BUTTON item ="Logout" parent="Lobby">
-		<BUTTONLOOK>NormalBmButtonLook</BUTTONLOOK>
-		<BOUNDS>
-			<X>0</X>
-			<Y>0</Y>
-			<W>0</W>
-			<H>0</H>
-		</BOUNDS>
-		<DEFAULTKEY>ESC</DEFAULTKEY>
-		<CONFIRMMESSAGE>STR:UI_LOBBY_A02</CONFIRMMESSAGE> <!-- GUNZ를 종료하시겠습니까? -->
-		<CONFIRMLOOK>DefaultFrameLook</CONFIRMLOOK>
-	</BUTTON>
 	
 
 <!-- 어레인지드 팀 게임 다이얼로그 -->
