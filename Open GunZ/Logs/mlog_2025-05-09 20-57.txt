@@ -1,0 +1,114 @@
+Open GunZ v1.0.0-0 launched. Build date: Aug 23 2022 15:15:34
+Log time (05/09/25 20:57:12)
+Display Device = NVIDIA GeForce GTX 1050 Ti ( vendor=10de device=1c82 subsys=37331458 revision=a1 )
+Display Driver Version = 32.0.0015.7270
+Windows = 6.2 Build 9200 ,  (2097151KB) :  ..
+Load Config from file : C:\Users\Franco\Documents/Open GunZ/config.xml- FAIL
+Load XML from memory : system/locale.xml- SUCCESS
+Country : (BRZ), Language : (BRZ)
+Load XML from memory : system/gametypecfg.xml- SUCCESS
+Load XML from memory : system/system.xml- SUCCESS
+Load XML from memory : system/strings.xml(0x0000) - SUCCESS
+Load XML from memory : system/cserror.xml(0x0000) - SUCCESS
+Load XML from memory : system/messages.xml(0x0000) - SUCCESS
+WFog Enabled Device.
+Device created
+main : RGetLenzFlare()->Initialize() 
+main : ZGetInitialLoading()->Initialize() 
+main : g_Mint.Initialize() 
+ZApplication::OnCreate : begin
+0(Controlador primario de sonido): Hardware Mixing Not Supported
+1(Headphones (High Definition Audio Device)): Hardware Mixing Not Supported
+2(Altavoces (High Definition Audio Device)): Hardware Mixing Not Supported
+3(HDMI (NVIDIA High Definition Audio)): Hardware Mixing Not Supported
+[[[getMaxChannel32]]]]
+LoadWave: Error loading file
+
+-------------------> Sound Engine Create : 0.000000 
+
+Load XML from memory : System/tips.xml(0x0000)- SUCCESS
+START ZGameInterface::LoadBitmaps
+END ZGameInterface::LoadBitmaps
+loading pictures took 0.000000 seconds
+warning : bitmap banner_Lodge.tga not found.
+warning : bitmap banner_Dojo.tga not found.
+IDLResource Loading Success!!
+IDL resources took 0.000000 seconds
+ZOptionInterface::InitInterfaceOption
+Number of display mode for format 22: 72
+InitMaps -- No current channelrule
+Screen Effect Manager Create : 0.000000 
+ZGameInterface::OnCreate -- Picked 7789 as the network port (from a range of 7700 to 7800)
+7789 upnp port forward initialized.
+ZGameInterface::OnCreate : done 
+
+-------------------> GameInterface Create : 0.000000 
+
+ZApplication::OnCreate : GameInterface Created
+ZApplication::OnCreate : m_pInterface->OnCreate() 
+ZApplication::OnCreate : m_MeshMgr.LoadXmlList(character.xml) 
+
+-------------------> Character Loading : 0.000000 
+
+
+-------------------> WeaponMesh Loading : 0.000000 
+
+ZApplication::OnCreate : m_WeaponMeshMgr.LoadXmlList(weapon.xml) 
+
+-------------------> Worlditem Loading : 0.000000 
+
+ZApplication::OnCreate : CreateConsole 
+ZApplication::OnCreate : MGetMatchItemDescMgr()->ReadXml 
+Error while Read Item Descriptor system/zeffect.xml
+ZApplication::OnCreate : MGetMatchItemEffectDescMgr()->ReadXml 
+ZApplication::OnCreate : MGetMatchWorldItemDescMgr()->ReadXml 
+ZApplication::OnCreate : ZGetChannelRuleMgr()->ReadXml 
+ZApplication::OnCreate : MGetChattingFilter()->Create 
+
+-------------------> ETC .. : 0.000000 
+
+main : g_App.OnCreate() 
+RBspObject::Open -- No navigation file for interface/login/login.rs
+main : OnCreate() done
+Resetting device...
+... SUCCESS!
+127.0.0.1 6000
+Server Connected
+Login Posted
+Login Successful. 
+Responsed Account Charlist
+Responsed Account Charlist
+Selected character name : Sudoapt (53 75 64 6F 61 70 74 )  (len = 7)
+ZPlayerListBox::SetMode 0
+Resetting device...
+... SUCCESS!
+MLogoutListener !
+RBspObject::Open -- No navigation file for interface/login/login.rs
+MExitListener !
+Received WM_CLOSE, exiting
+main : OnDestroy()
+ZSoundEngine::Destroy
+ZSoundEngine::Destroy() : Close FMod
+ZApplication::OnDestroy : DestroyConsole() 
+ZGameInterface::OnDestroy() : begin 
+ZGameInterface::OnDestroy() : g_pGameClient->Destroy() 
+PeerInfoList Released
+SAFE_DELETE(g_pGameClient) : 
+ClearLooks() End : 
+m_WidgetMap.Clear() End : 
+MCursorSystem::Destroy() End : 
+m_IDLResource.Clear() End : 
+ZGameInterface::FinalInterface() End: 
+ZGameInterface::OnDestroy() : done() 
+ClearLooks() End : 
+m_WidgetMap.Clear() End : 
+MCursorSystem::Destroy() End : 
+ZApplication::OnDestroy : m_MeshMgr.DelAll() 
+ZApplication::OnDestroy : m_WeaponMeshMgr.DelAll() 
+ZApplication::OnDestroy done 
+main : g_Mint.Finalize()
+main : g_DInput.Destroy()
+main : g_App.OnDestroy()
+main : ZGetConfiguration()->Destroy()
+main : MBitmapManager::DestroyAniBitmap()
+main : OnDestroy() done
