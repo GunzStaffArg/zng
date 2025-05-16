@@ -36,7 +36,8 @@
 		<GROUP>ChannelList</GROUP>
 	</BUTTON>
 
-	<BUTTON item="ChannelList_Private" parent="ChannelListFrame">	
+	<!-- Nuevo botón Ladder agregado aquí -->
+	<BUTTON item="ChannelList_Ladder" parent="ChannelListFrame">	
 		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
 		<ANCHORS>
 			<LEFT>true</LEFT>
@@ -47,6 +48,24 @@
 		<BOUNDS>
 			<X>15</X>
 			<Y>99</Y>
+			<W>95</W>
+			<H>32</H>
+		</BOUNDS>
+		<TEXT>Ladder</TEXT>
+		<GROUP>ChannelList</GROUP>
+	</BUTTON>
+
+	<BUTTON item="ChannelList_Private" parent="ChannelListFrame">	
+		<BUTTONLOOK>DefaultButtonLook</BUTTONLOOK>
+		<ANCHORS>
+			<LEFT>true</LEFT>
+			<TOP>true</TOP>
+			<RIGHT>true</RIGHT>
+			<BOTTOM>true</BOTTOM>
+		</ANCHORS>
+		<BOUNDS>
+			<X>15</X>
+			<Y>139</Y>
 			<W>95</W>
 			<H>32</H>
 		</BOUNDS>
@@ -64,7 +83,7 @@
 		</ANCHORS>
 		<BOUNDS>
 			<X>15</X>
-			<Y>139</Y>
+			<Y>179</Y>
 			<W>95</W>
 			<H>32</H>
 		</BOUNDS>
